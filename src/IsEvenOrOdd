@@ -1,0 +1,13 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+    }
+    public static void isEvenOrOdd() {
+            Scanner scanner = new Scanner(System.in);
+
+            System.out.println("Enter a number followed by the Enter Key: ");
+            int number = scanner.nextInt();
+
+            System.out.println((number % 2 == 0) ? "Even" : "Odd");
+        }
+}
